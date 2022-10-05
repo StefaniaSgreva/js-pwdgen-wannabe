@@ -10,7 +10,7 @@ const userSurname = prompt('What is your surname ?');
 const userFavColor = prompt('What is your favorite color ?');
 const userAge = prompt('How old are you ?');
 const welcome = `
-${userName}${userSurname}${userFavColor}${userAge}
+<span class="new-password">${userName}${userSurname}${userFavColor}${userAge}</span>
 `;
 
 const element = document.getElementById('password');
